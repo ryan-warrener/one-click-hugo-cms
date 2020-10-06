@@ -1,5 +1,7 @@
 ---
 name: Best of Argentina & Brazil
+title: Best of Argentina & Brazil
+image: img/2-intrepid-travel-argentina_iguazu-falls_scenic-waterfall-rainbow_ss-669004393.jpg
 day:
   - overview: Bienvenido! Welcome to Buenos Aires. Buenos Aires is the ultimate
       cosmopolitan city, with Latin passion, European elegance, and its own
