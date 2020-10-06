@@ -11,6 +11,13 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Name", name: "name", widget: "string"}
+      - {label: "Itinerary Day", name: "day", widget: "list", fields: [
+          {label: "Overview", name: "overview", widget: "text"},
+          {label: "Accommodation", name: "accommodation", widget: "text"},
+          {label: "Included Activities", name: "activities_included", widget: "text"},
+          {label: "Optional Activities", name: "activities_optional", widget: "text"},
+          {label: "Meals Included", name: "meals", widget: "text"},
+          {label: "Special Information", name: "info_special", widget: "text"}]}
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "site/content/post" # The path to the folder where the documents are stored
